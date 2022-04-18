@@ -3,6 +3,7 @@ import Nav from "./components/Navigation/index";
 import About from "./components/About";
 import ContactForm from "./components/Contact";
 import Resume from "./components/Resume";
+import Project from "./components/Project";
 
 export default function App() {
   const [currentCategory, setCurrentCategory] = useState("About");
@@ -13,9 +14,9 @@ export default function App() {
     if (currentCategory === "Contact") {
       return <ContactForm />;
     }
-    // if (currentCategory === "Project") {
-    //   return <Project />;
-    // }
+    if (currentCategory === "Project") {
+      return <Project />;
+    }
     if (currentCategory === "Resume") {
       return <Resume />;
     }
