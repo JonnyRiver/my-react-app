@@ -1,5 +1,6 @@
 import React from "react";
 import dreamjournal from "../../assets/images/dreamjournal.png";
+import renaissancerags from "../../assets/images/renaissancerags.png";
 // import horiseonapp from "../../assets/images/horiseonapp.png";
 // import runsnipit from "../../assets/images/runsnipit.png";
 // import workdayschedule from "../../assets/images/workdayschedule.png";
@@ -33,7 +34,7 @@ const Project = () => {
         <img
           src={renaissancerags}
           className="card-img-top"
-          alt="Card image cap"
+          alt="renaissance rags image"
         />
         <div className="card-body">
           <h5 className="card-title">Renaissance Rags</h5>
@@ -47,12 +48,12 @@ const Project = () => {
             Live Site
           </a>
           <br></br>
-          {/* <a
+          <a
             href="https://github.com/polizoto/renaissance-rags"
             title="Go to Renaissance Rags github repository"
             rel="noopener"
             target="_blank"
-          ></a> */}
+          ></a>
         </div>
       </div>
     </div>
