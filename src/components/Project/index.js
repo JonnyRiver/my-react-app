@@ -29,6 +29,32 @@ const Project = () => {
           ></a>
         </div>
       </div>
+      <div className="card col-sm-6">
+        <img
+          src={renaissancerags}
+          className="card-img-top"
+          alt="Card image cap"
+        />
+        <div className="card-body">
+          <h5 className="card-title">Renaissance Rags</h5>
+          <br></br>
+          <a
+            href="https://whispering-fjord-16472.herokuapp.com/"
+            title="Go to Renaissance Rags website"
+            rel="noopener"
+            target="_blank"
+          >
+            Live Site
+          </a>
+          <br></br>
+          {/* <a
+            href="https://github.com/polizoto/renaissance-rags"
+            title="Go to Renaissance Rags github repository"
+            rel="noopener"
+            target="_blank"
+          ></a> */}
+        </div>
+      </div>
     </div>
   );
 };
