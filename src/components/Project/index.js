@@ -1,8 +1,8 @@
 import React from "react";
 import dreamjournal from "../../assets/images/dreamjournal.png";
 import renaissancerags from "../../assets/images/renaissancerags.png";
-// import horiseonapp from "../../assets/images/horiseonapp.png";
-// import runsnipit from "../../assets/images/runsnipit.png";
+import horiseonapp from "../../assets/images/horiseonsnip.png";
+import runsnipit from "../../assets/images/runsnipit.png";
 // import workdayschedule from "../../assets/images/workdayschedule.png";
 
 const Project = () => {
@@ -30,6 +30,7 @@ const Project = () => {
           ></a>
         </div>
       </div>
+
       <div className="card col-sm-6">
         <img
           src={renaissancerags}
@@ -51,6 +52,52 @@ const Project = () => {
           <a
             href="https://github.com/polizoto/renaissance-rags"
             title="Go to Renaissance Rags github repository"
+            rel="noopener"
+            target="_blank"
+          ></a>
+        </div>
+      </div>
+
+      <div className="card col-sm-6">
+        <img src={horiseonapp} className="card-img-top" alt="Card image cap" />
+        <div className="card-body">
+          <h5 className="card-title">Horiseon App</h5>
+          <br></br>
+          <a
+            href="https://jonnyriver.github.io/Horiseon/"
+            title="Go to Horiseon App website"
+            rel="noopener"
+            target="_blank"
+          >
+            Live Site
+          </a>
+          <br></br>
+          <a
+            href="https://github.com/JonnyRiver/Horiseon"
+            title="Go to Horiseon App github repository"
+            rel="noopener"
+            target="_blank"
+          ></a>
+        </div>
+      </div>
+
+      <div className="card col-sm-6">
+        <img src={runsnipit} className="card-img-top" alt="Card image cap" />
+        <div className="card-body">
+          <h5 className="card-title">Run Buddy Website</h5>
+          <br></br>
+          <a
+            href="https://jonnyriver.github.io/run-buddy/"
+            title="Go to Run Buddy website"
+            rel="noopener"
+            target="_blank"
+          >
+            Live Site
+          </a>
+          <br></br>
+          <a
+            href="https://github.com/JonnyRiver/run-buddy"
+            title="Go to Run Buddy github repository"
             rel="noopener"
             target="_blank"
           ></a>
