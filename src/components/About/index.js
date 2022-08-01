@@ -4,14 +4,13 @@ import profilephoto from "../../assets/images/profilephoto.jpg";
 function About() {
   return (
     <section className="my-5">
-      <h1 id="about">About Me</h1>
       <img
         src={profilephoto}
-        className="my-2"
+        className="my-img"
         style={{ width: "25%" }}
         alt="cover"
       />
-      <div className="my-2">
+      <div className="my-about">
         <p>
           My name is Jonathan Martin. I was born January 13th 1990 near Detroit,
           Michigan. I spent majority of my life in Michigan and have a lot of
@@ -25,8 +24,8 @@ function About() {
           Unfortunately, with the changing industry, I don't feel it is a good
           fit for me in this time of my life. So with that, I looked into a
           career in web developement. It is very exciting and challenging for
-          me, which is very motivating. I am currently studying full stack web
-          developement at UNC.
+          me, which is very motivating. I have recently successfully finished
+          the full stack web developement bootcamp at UNC.
         </p>
       </div>
     </section>

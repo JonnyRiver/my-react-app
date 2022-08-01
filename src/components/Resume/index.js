@@ -2,15 +2,22 @@ import React from "react";
 
 function Resume() {
   return (
-    <section class="container">
-      <h2 className="top-title">Resume and Work Links</h2>
-      <hr></hr>
-      <div>
-        <a href="https://github.com/jonnyriver" class="link">
-          Click here for Github Profile
-        </a>
+    <div class="container">
+      <div className="card col-sm-6">
+        <div className="card-body">
+          <h2 className="card-title">GitHub Profile</h2>
+          <br></br>
+          <a
+            href="https://github.com/jonnyriver"
+            title="Go to My Github"
+            rel="noopener"
+            target="_blank"
+          >
+            GitHub Website
+          </a>
+        </div>
       </div>
-    </section>
+    </div>
   );
 }
 

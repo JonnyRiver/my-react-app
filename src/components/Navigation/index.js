@@ -37,10 +37,10 @@ function Nav({ currentCategory, CategoryChange }) {
               href="#project"
               onClick={() => CategoryChange("Project")}
               className={
-                currentCategory === "Project" ? "nav-link active" : "nav-link"
+                currentCategory === "Projects" ? "nav-link active" : "nav-link"
               }
             >
-              Project
+              Projects
             </a>
           </li>
           <li className="mx-2">
